@@ -34,6 +34,6 @@ To route the data out of the Helium network, an integration and decoder function
 
 ### Setup
 
-Within Miner_RMS.ino, change any line with `<REPLACE_ME>`to the requested information. There are only three items that need configuring at the top of the script, which are the Dev EUI, App EUI, and App key from the Helium Console.
+Within Miner_RMS.ino, change any line with `<REPLACE_ME>`to the requested information. There are only three items that need configuring at the top of the script, which are the `dev EUI`, `app EUI`, `and app` key from the Helium Console.
 
 After uploading the code to your Arduino, your device should register within the helium network and begin transmitting data every thirty seconds.
